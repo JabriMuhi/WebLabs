@@ -1,0 +1,209 @@
+* {
+    margin: auto;
+}
+
+body {
+    width: 60%;
+}
+
+header .logo {
+    background-color: #deebf4;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    min-height: 150px;
+
+}
+
+.logo-text {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 61px;
+}
+
+.main-h {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blog-section-h {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header ul {
+    margin-top: 10px;
+    background-color: #deebf4;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+header li {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+nav {
+    float: right;
+    text-align: center;
+    font-size: 23px;
+    overflow: hidden;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: sandybrown;
+}
+
+.active-link {
+    color: sandybrown;
+}
+
+.blog-border {
+    border: 5px solid sandybrown;
+    border-radius: 5px;
+}
+
+main {
+    margin-top: 10px;
+    float: left;
+    width: 79%;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    display: block;
+    max-height: 950px;
+}
+
+.main-tag {
+    overflow: scroll;
+    overflow-x:hidden
+}
+
+
+main p {
+    font-size: 22px;
+    margin: 10px 20px 10px 20px;
+    text-indent: 25px;
+
+}
+
+main h2 {
+    margin-left: 45px;
+}
+
+main li {
+    font-size: 20px;
+}
+
+.link-section-blog {
+    width: 99%;
+    border: 5px solid sandybrown;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.link-section {
+    text-decoration: none;
+    color: black;
+}
+
+.link-section:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.link-section:active {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-section-p {
+    text-align: center;
+    font-size: 25px;
+}
+
+.link-section-blog hr{
+    height: 3px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+aside {
+    float: right;
+    overflow: hidden;
+    width: 20%;
+    border-radius: 5px;
+}
+
+aside pre {
+    background-color: #deebf4;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+article {
+    margin-left: 15px;
+}
+
+.contacts {
+    font-size: 25px;
+    margin-left: 20px;
+    text-indent: 0px;
+}
+
+.about-me-p {
+    text-align: center;
+    font-size: 25px;
+}
+
+article sup {
+    font-size: 25px;
+}
+
+article sub {
+    font-size: 25px;
+}
+
+.my-photo {
+    width: 70%;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 0.75rem black);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+footer {
+    background-color: #deebf4;
+    width: 60%;
+    border-radius: 5px;
+    min-height: 150px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer-p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 30px;
+}
