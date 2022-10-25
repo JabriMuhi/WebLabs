@@ -108,7 +108,7 @@ main li {
 
 .link-section-blog {
     width: 99%;
-    border: 5px solid sandybrown;
+    border: 7px solid sandybrown;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -134,7 +134,7 @@ main li {
 }
 
 .link-section-blog hr{
-    height: 3px;
+    height: 2px;
     background-color: black;
     border-radius: 5px;
     margin-top: 5px;
@@ -189,6 +189,10 @@ article sub {
 .content {
     margin-left: 20px;
     font-size: 25px;
+}
+
+.page-load {
+    font-size: 20px;
 }
 
 footer {
