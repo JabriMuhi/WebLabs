@@ -4,14 +4,17 @@
 
 body {
     width: 60%;
+    background-color: #0a0c10;
+    color: #f0f3f6;
 }
 
 header .logo {
-    background-color: #deebf4;
+    background-color: #272b33;
     width: 100%;
     overflow: hidden;
     border-radius: 5px;
     min-height: 150px;
+    display: block;
 
 }
 
@@ -19,6 +22,14 @@ header .logo {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 61px;
+}
+
+.fhd-logo {
+    display: none;
+    background-color: #272b33;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
 }
 
 .main-h {
@@ -63,11 +74,19 @@ nav a {
 
 nav a:hover {
     text-decoration: none;
-    color: sandybrown;
+    color: #f0f3f6;
+}
+
+nav ul {
+    background-color: #272b33;
+}
+
+nav a {
+    color: #7a828e;
 }
 
 .active-link {
-    color: sandybrown;
+    color: #f0f3f6;
 }
 
 .blog-border {
@@ -82,12 +101,12 @@ main {
     border-radius: 5px;
     margin-bottom: 100px;
     display: block;
-    max-height: 950px;
+    max-height: 930px;
 }
 
 .main-tag {
     overflow: scroll;
-    overflow-x:hidden
+    overflow-x:hidden;
 }
 
 
@@ -108,7 +127,7 @@ main li {
 
 .link-section-blog {
     width: 99%;
-    border: 7px solid sandybrown;
+    border: 7px solid #7a828e;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -135,10 +154,18 @@ main li {
 
 .link-section-blog hr{
     height: 2px;
-    background-color: black;
+    background-color: #f0f3f6;
     border-radius: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.blog-section-p {
+    color: #f0f3f6;
+}
+
+.blog-section-h {
+    color: #f0f3f6;
 }
 
 aside {
@@ -149,7 +176,7 @@ aside {
 }
 
 aside pre {
-    background-color: #deebf4;
+    background-color: #272b33;
     border-radius: 5px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -195,8 +222,27 @@ article sub {
     font-size: 20px;
 }
 
+.table-style {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding-bottom: 10px;
+}
+
+.column-name {
+    font-size: 30px;
+}
+
+.phone-number {
+    text-decoration: none;
+    color: #f0f3f6;
+}
+
+.phone-number:hover {
+    color: #7a828e;
+}
+
 footer {
-    background-color: #deebf4;
+    background-color: #272b33;
     width: 60%;
     border-radius: 5px;
     min-height: 150px;
@@ -210,4 +256,99 @@ footer {
     font-weight: bold;
     margin-top: 30px;
     font-size: 30px;
+}
+
+
+@media only screen
+and (min-device-width : 360px)
+and (max-device-width : 740px){
+    body {
+        width: 100%;
+    }
+    header {
+        min-width: 10%;
+        height: 20%;
+        text-align: center;
+        width: 100%;
+    }
+
+    aside pre {
+        display: none;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .main-tag {
+        height: 80%;
+        width: 97%;
+        overflow: visible;
+
+    }
+
+    main {
+        width: 97%;
+        overflow: visible;
+        height: 80%;
+        margin-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .table-style {
+        overflow: scroll;
+        overflow-y:hidden;
+    }
+
+    main img {
+        width: 95%;
+    }
+
+    .link-section {
+        width: 100%
+    }
+
+    .blog-section-h {
+        margin: auto;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media only screen
+and (min-device-width : 1440px)
+and (max-device-width : 1980px) {
+
+    header .logo {
+        display: none;
+    }
+
+    .fhd-logo{
+        display: block;
+    }
+
+    main {
+        max-height: 520px;
+        oveflow: scroll;
+        overflow-x:hidden;
+
+    }
+
+    main img {
+        width: 95%;
+    }
+
+    .link-section-blog {
+        width: 97%;
+    }
+
+    footer {
+        min-height: initial;
+    }
+
+    nav pre {
+        display: none;
+    }
 }
